@@ -1,1 +1,1 @@
-<?php echo "hello world from git edit";?>
+<?php echo "hello world from localhost";?>
