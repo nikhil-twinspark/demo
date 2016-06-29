@@ -1,0 +1,104 @@
+>> git init (initialize Git Repository)
+>> git status (Checks the status, we need to commit)
+>> git add "path of file" (add the file)
+>> git commit -m "type the message" (Committing)
+>> git add '*.txt' (add all the files)
+>> git commit -m'Add all the octocat txt files'
+>> git log (view the history)
+>> git remote add origin 'path of repo url' (Remote Repositories)
+>> git push -u origin master(pushing remotely)
+>> git pull origin master (pull the changes done by others)
+>> git diff HEAD (checks the difference from the last commits)
+>> git add octofamily/octodog.txt ()
+>> git diff --staged (checks the difference between different staged servers)
+>> git reset octofamily/octodog.txt (removes the file)
+>> git checkout -- octocat.txt (undo what you have done)
+>> git branch clean_up (creates a branch called clean up)
+>> git checkout clean_up ()
+>> git rm '*.txt' (removes all the files)
+>> git commit -m (commitng on the server)
+>> git push (push on server)
+
+>> git help (for the help)
+>> git help log (this will open the documentation)
+------------------------------------------
+1) steps to add the file on the git
+
+git add test.php "comments"
+git commit -m "comments"
+git push
+
+2) Step to clone the files from git to localhost
+
+git clone https://github.com/nikhil-twinspark/demo.git "path of the git library"
+
+3) How to pull files from git
+
+git pull
+
+4) How to remove file from the folder
+
+git rm test.php "File name which should be deleted"
+git commit -m
+
+5) How to get the removed file back from github
+
+git rev-list -n 1 HEAD -- test.php (file name)
+git checkout 363d7651069345d3789e955362bab21fba6fb62f^ -- test.php (caret^ symbol must be used with the file name)
+
+6) How to create the remote GIT branch
+
+git checkout -b new_folder (folder name to be created)
+git push https://github.com/nikhil-twinspark/demo.git new_folder (remote name & folder name)
+
+7) How to setup the branch which is created
+
+*** this is not working ***
+git clone https://github.com/nikhil-twinspark/demo.git "folder_name_to_be_created"
+
+8) How to get back to master branch
+
+git checkout master (branch name to which we need to move)
+
+9) How to checkout the file 
+
+git checkout test.php (file name)
+
+10) How to delete the file file from local system and get it back
+
+'delete the file from the localhost and follow the steps'
+git commit -a -m 'deleted test' (this will delete the file from localhost)
+git log (this will show all the commits)
+git revert 363d7651069345d3789e955362bab21fba6fb62f
+
+
+------------------------------------------------
+How to create directory ?
+How to create the file ?
+------------------------------------------
+
+The most commonly used git commands are:
+add : Add file contents to the index
+bisect :  Find by binary search the change that introduced a bug
+branch : List, create, or delete branches
+checkout : Checkout a branch or paths to the working tree
+clone : Clone a repository into a new directory
+commit : Record changes to the repository
+diff : Show changes between commits, commit and working tree, etc
+fetch : Download objects and refs from another repository
+grep : Print lines matching a pattern
+init : Create an empty git repository or reinitialize an existing one
+log : Show commit logs
+merge : Join two or more development histories together
+mv : Move or rename a file, a directory, or a symlink
+pull : Fetch from and merge with another repository or a local branch
+push : Update remote refs along with associated objects
+rebase : Forward-port local commits to the updated upstream head
+reset : Reset current HEAD to the specified state
+rm : Remove files from the working tree and from the index
+show : Show various types of objects
+status : Show the working tree status
+tag : Create, list, delete or verify a tag object signed with GPG
+
+---------------------------------
+you know i mean it

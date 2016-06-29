@@ -1,0 +1,37 @@
+Super Admin Login
+
+1) Adding the client
+
+>> Staff Url (How to add the staff and patient url)
+http://integrateortho2.sourcefuse.com/ClientManagement/edit/1
+
+>> What is the card no and login details
+http://integrateortho1.sourcefuse.com/rewards/login
+
+Pointed domain on server : http://staff2.integrateortho.sourcefuse.com/
+
+
+2) What's the difference between global & Lite Promotions
+
+--------------------------------
+Login detais for users :
+
+john_dummy@gmail.com
+john/nikhil
+
+Login details for staff :
+
+staff@gmail.com
+zstaff/zstaff
+role : manager
+----------------------------------
+
+
+10121
+sparrow@gmail.com/sparrow
+
+
+sourcefuse00
+
+buffer for js
+ 
